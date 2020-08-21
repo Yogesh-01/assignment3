@@ -1,0 +1,62 @@
+body{
+	font-size: 16px;
+	color: #000;
+	background-color: #FFF;
+}
+.container{ 
+	margin-left: 0; /* so that brand name could go all the way left */
+}
+#collapsable-butt{ /* weird top border was appearing on open menu*/
+	border: 0;     /* so hard set border to 0 */
+}
+#header-nav{ /* topmost part where Food, LLC is written */
+	background-color: #8DC9F0; /* blue top background */
+	border-radius: 0;
+	border-bottom: 2px solid #2C3E50; /* border color same as Food, LLC */
+	height: 100px;
+	padding-left: 30px; /* so as brand name aligns with big boxes */
+	
+
+}
+.navbar-brand{
+	padding-top: 10px;
+	padding-left: 0; /* to align with big box, as we gave 30px already in header-nav*/
+}
+.navbar-brand h1{ /* Food, LLC text */
+    color: #2C3E50;
+    font-weight: 400;   /* making a little bold */
+}
+
+#headingg{          /* our menu */
+	color: #047CBF; /* dark blue */
+	/* text is already aligned to center, as we used text-center bootstrap class in html */
+
+}
+
+#row div{ /* large boxes containing text */
+	color: #333333;      /* blackish */
+	background: #D8E6F0; /* faint blueish*/
+	border:1px solid black;
+	padding: 10px;
+	margin:30px 30px 30px 30px;
+}
+h3{ /* chicken etc titles in box */
+	text-align: center;
+	margin-top: 0; /* as already gave padding to container */
+}
+
+/* collapsable menu */
+#nav-list a{
+	color: #333333;
+	background: #8DC9F0;
+	border: 1px solid #FFF; /* menu rows border */
+}
+#nav-list a:hover{
+	color:#333333; 
+	background: #54BCFF; /* darker blue */
+}
+#top-button{ /* back to top button */
+	text-align: right;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
